@@ -9,3 +9,9 @@ Protocolo del Proyecto
 
 # T1U2
 Distintos Problemas de Optimización y sus Representaciones Gráficas
+
+# T2U2
+N-Reinas por búsqueda tabú
+
+# T3U2
+N-Reinas por recocido simulado
