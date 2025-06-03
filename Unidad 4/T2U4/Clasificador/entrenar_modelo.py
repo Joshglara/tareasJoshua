@@ -57,7 +57,7 @@ validacion_generator = entrenar_datagen.flow_from_directory(
 # Usar el modelo base MobileNetV2
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
 
-# Add custom classification head
+# Para clasificación
 x = base_model.output
 x = GlobalAveragePooling2D()(x)
 x = Dense(512, activation='relu')(x)
